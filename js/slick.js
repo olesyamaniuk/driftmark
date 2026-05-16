@@ -1,5 +1,5 @@
 $(function () {
-  $(".o-n-reviews-list").slick({
+  $(".p-t-reviews-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -10,7 +10,7 @@ $(function () {
     dots: false,
     centerMode: false,
     cssEase: "linear",
-    prevArrow: ".o-n-reviews-list-left",
-    nextArrow: ".o-n-reviews-list-right",
+    prevArrow: ".p-t-reviews-list-left",
+    nextArrow: ".p-t-reviews-list-right",
   });
 });
